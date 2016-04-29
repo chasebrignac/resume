@@ -1,0 +1,176 @@
+% Last updated 04/06/2016
+% LaTeX resume using res.cls
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage[option]{inputenc} % for foreign language letters
+
+\setlength{\textwidth}{6.2in} % set width of text portion
+\usepackage[
+top    = .5cm,
+bottom = .5cm,
+left   = 2cm,
+right  = 4cm]{geometry}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Chase J. Brignac}
+% Draw a horizontal line the whole width of resume:
+ %\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{chase.brignac@gmail.com}       
+ \moveleft.5\hoffset\centerline{(225)-333-9947}
+ \moveleft.5\hoffset\centerline{Page 1 of 2}
+
+\begin{resume}
+
+\section{WORK \\ EXPERIENCE} 
+
+
+	{\bfseries {\em Systems Engineer}}  \hfill  {\bfseries{\em September 2015-Present}}\\
+		NASA Goddard Space Flight Center Earth Science Mission Operations Code 428\\
+		contracted by Honeywell Technology Solutions Inc
+                \begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Improvement of transition DevOps shell script resulting in more efficient automated transition from Mission Operation Center (MOC) to backup Mission Operation Center for Landsat 8
+		\item Improvement of regression testing DevOps shell script from over three years ago resulting in more efficient automated regression testing of Landsat 8 spacecraft Front End Processor in MOC
+		\item Improvement of load checksums  DevOps shell script resulting in more efficient automated checking of the loads to be sent up to Landsat 8 spacecraft
+		\item Acquired Satellite Console Controller and Satellite Operations Controller certifications
+		\item Achieved successful operations, maintainance, and troubleshooting of Landsat 8 without operator errors
+                \end{itemize}
+	{\bfseries {\em Co-Founder and Chief Technology Officer}}  \hfill  {\bfseries{\em October 2015-March 2016}}\\
+		WeCook
+                \begin{itemize}  \itemsep -2pt %reduce space between items 
+		\item Directed DevOps team that successfully built and maintained an AngularJS website on Amazon Web Services EC2 using agile development practices to regularly auto bill users, permit editing of chef appointments, and enable Chief Operating Officer to manage hundreds of appointments efficiently
+		\item Wrote and used chef appointment DevOps Python script to automate the creation of chef appointment documents used by the organization which instructed the chefs on the address, names, time of appointment, location, phone number, how much of each ingredient to buy, what cooking tools to bring, and how to cook the food depending on which foods and how much the customer chooses for a specific appointment
+		\item Informed the executive team of technology limitations and expectations to inform business decisions
+		\item Started consumer facing website using Javascript, Meteor, and Boostrap with user accounts, Stripe and Facebook integration, and features for presenting meals and nutrition to users as well as scheduling chef appointments
+                \item Obtained profit margins of 10-30\% on bulk food chef appointments (did not need to deploy because of an extremely cheap development team we later tapped)
+		\item Attained revenue growth from hundreds monthly in October to \$10k monthly in February
+                \end{itemize}
+	{\bfseries {\em Test Engineer}}  \hfill  {\bfseries{\em April 2014-September 2015}}\\
+		NASA Goddard Space Flight Center Planetary Environments Laboratory Code 699\\
+                under the supervision of Dr. Paul Mahaffy, contracted by ADNET Systems
+                \begin{itemize}  \itemsep -2pt %reduce space between items 
+                \item  Contributed to Martian satellite MAVEN, and Martian rovers Curiosity and ExoMars
+		\item Tested MicroPirani pressure sensor for ExoMars resulting in a well developed and tested solution for taking pressure on Mars
+		\item Calibrated and operated the MAVEN Neutral Gas Ion Mass Spectrometer (NGIMS) testbed and instrument
+		\item Created Python scripts that trends MAVEN NGIMS testbed data and instrument sensitivity resulting in the confirmation that the MAVEN satellite's mass spectrometer and our testbed on the ground is working correctly and not degrading over the life of the mission
+		\item Improved usability of MAVEN satellite front-end web portal that presents and allows manipulation of satellite engineering and science data to the engineers and scientists called XINA online in AngularJS
+                \end{itemize}
+
+        {\bfseries {\em Research Assistant}} \hfill {\bfseries{\em Summer 2012 and 2013}} \\
+National Institute of Standards and Technology (NIST) in Gaithersburg, MD \\
+                 under the supervision of Dr. Alan Migdall
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Developed simulations in Python of an efficient single photon source in the lab called the Number Squeezed State Generator (NSSG) by using Spontaneous Parametric Down Conversion (SPDC) with system feedback to achieve super-resolution and supersensitivity
+		\item Built Maximum-Likelihood Estimation (MLE) fitting program in Mathematica and Java to characterize Transition Edge Sensor (TES) data output
+	 	\item Constructed Modified Levenberg-Marquardt Algorithm (MLMA) fitting program in MATLAB for TES data output
+	 	\item Programmed Monte Carlo simulations in C++ and Java of Fabry-Perot interferometers with various methods of intensity detection and various quantum states of light input to study sensitivity, visibility, and other characteristics
+		\item Engineered low cost temperature controller to keep non-linear crystals in the range 20 C to 150 C to within 0.05 C
+	 	\item Used the agile development method in C++ on Arduino to create and tune an easy to operate and troubleshoot temperature proportional-integral-derivative (PID) controller and GUI 
+                 \end{itemize}
+	{\bfseries {\em  Research Assistant}}  \hfill  {\bfseries{\em August 2010 - May 2013}} \\
+		Quantum Science and Technology Group in Baton Rouge, LA \\                 
+                 under the supervision of Dr. Jonathan P. Dowling
+                 \begin{itemize}  \itemsep -2pt %reduce space between items 
+		\item Programmed simulations in Mathematica and MATLAB of Mach-Zehnder \\ interferometers with parity detection and various quantum states of light input
+		\item Developed a GUI to run these simulations for a more interactive method to study sensitivity, visibility, and other characteristics 
+		\item Published in Physical Review A
+                 \end{itemize}
+
+\section{EDUCATION}
+	{\bfseries {\em  Louisiana State University, Baton Rouge, LA}} \hfill   {\bfseries {\em May 2013}}\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                \begin{itemize}  \itemsep -14pt
+                \item Bachelor of Science in Physics with a Minor in Mathematics, 3.36 GPA\\
+                \end{itemize}
+
+
+%\newpage
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Chase J. Brignac}
+% Draw a horizontal line the whole width of resume:
+%\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+\moveleft.5\hoffset\centerline{chase.brignac@gmail.com}
+\moveleft.5\hoffset\centerline{(225)-333-9947}
+\moveleft.5\hoffset\centerline{Page 2 of 2}
+\moveleft.5\hoffset\centerline{Resume v1.1}
+
+
+\section{SKILLS}
+	{\bfseries {\em Programming and Software}}
+ 		\begin{itemize} 
+		\item Languages: Python, C++, Java, JavaScript, Mathematica, \LaTeX{}, MATLAB, Bash
+		\item Libraries: matplotlib, NumPy, SciPy, SymPy, jQuery
+		\item Frameworks: Meteor, Bootstrap, AngularJS
+		\item Operating Systems: Ubuntu, Red Hat, Mac OS X, Windows
+		\item Version Control: Git, SVN
+		\item Other: Jenkins, Amazon Web Services (AWS) EC2
+		\end{itemize}
+	 {\bfseries {\em Instrumentation:}}
+	 	\begin{itemize}
+	 	\item Quadrupole Mass Spectrometers
+	 	\begin{itemize}
+	 	\item Operated, maintained, and executed troubleshooting of extremely sensitive \$50 million NGIMS at NASA Goddard Space Flight Center
+	 	\end{itemize}
+
+	 	\item Piezoelectric sensors
+	 	\begin{itemize}
+	 	\item Designed a low cost piezo controller Printed Circuit Board (PCB) for quantum metrology at NIST using Electronic Design Automation program KiCad
+	 	\end{itemize}
+	 	\end{itemize}	
+
+\section{PUBLICATIONS}
+	{\bfseries {\em Strategies for choosing path-entangled number states for optimal\\robust quantum optical metrology in the presence of loss}} \hfill  {\bfseries {\em July 2012}}
+	 	\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Kebei Jiang, Chase J. Brignac, Moochan B. Kim, Hwang Lee, J. P. Dowling
+		\item Research performed at Louisiana State University on quantum optical metrology using parity detection applied to path entangled Fock states in lossy environments
+		\item Phys. Rev. A 86, 013826 (2012)
+		\end{itemize}
+
+\section{HONORS \& AWARDS}
+  	{\bfseries {\em Landsat 8 Flight Operation Team Excellence Award}} \hfill {\bfseries {\em 2016}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item For significant contributions to safeguarding the Landsat 8 mission
+		\end{itemize}
+	{\bfseries {\em Google Talk}} \hfill {\bfseries {\em 2016}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Invited to Lenoir, North Carolina to talk about Landsat 8 at Google's data center
+		\end{itemize}
+	{\bfseries {\em Pitch Dingman}} \hfill {\bfseries {\em 2016}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Won 2016 Pitch Dingman Competition grand prize of \$15,000 for WeCook
+		\end{itemize}
+  	{\bfseries {\em LA-STEM Research Scholars Program, LSU}} \hfill {\bfseries {\em 2010 - 2013}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Full coverage prestigious scholarship dedicated to promoting diversity in the STEM disciplines through academia, undergraduate research, and mentoring
+		\end{itemize}
+	{\bfseries {\em S-STEM Scholars Program, LSU}} \hfill {\bfseries {\em 2009 - 2013}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Academic scholarship dedicated to promoting diversity in the STEM disciplines
+		\end{itemize}
+
+\section{LEADERSHIP}
+  	{\bfseries {\em Bitcamp Hackathon Co-Executive Director}} \hfill {\bfseries {\em 2015 - 2016}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Organized massive hackathon with over 1200 attendees that took a year of planning and coordination
+		\item Facilitated diversity, innovation, and creativity to make new technologies
+		\item Managed extensive team of over a dozen directors
+		\item Balanced budget amounting to hundreds of thousands of dollars
+		\end{itemize}
+	{\bfseries {\em Startup Shell}} \hfill {\bfseries {\em 2015 - Present}} \
+		\begin{itemize} \itemsep -2pt %reduce space between items
+		\item Fostering entrepreneurship through collaboration at UMD's incubator advising startups
+		\item WeCook was founded in the Startup Shell
+		\end{itemize}
+
+\end{resume}
+\end{document}
+
